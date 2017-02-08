@@ -5,21 +5,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container text-center">
     <h1>Welcome to Grace's Boutique!</h1>
     <h2>Your one stop shop to buy all the things you don't need!</h2>
-    <div class="navbar">
-      <ul class="list-unstyled">
-        <li><a href="Cool.html">Cool Stuff</a></li>
-        <li><a href="More.html">More Cool Stuff</a></li>
-        <li><a href="cats.html">Cats</a></li>
-      </ul>
+    <div class="navbar navbar-default">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Menu
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="Cool.html">Cool Stuff</a></li>
+          <li><a href="More.html">More Cool Stuff</a></li>
+          <li><a href="cats.html">Cats</a></li>
+        </ul>
     </div>
+
 
     <h2>Pro's and con's of ordering things off this website</h2>
     <div class="row">
@@ -43,5 +48,9 @@
     </div>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</div>
 </body>
 </html>

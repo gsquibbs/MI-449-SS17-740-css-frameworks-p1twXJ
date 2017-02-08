@@ -5,24 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <div class="container text-center">
     <h1>Cat's are always a good option</h1>
-    <div class="navbar">
-      <ul class="list-unstyled">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Cool.html">Cool Stuff</a></li>
-        <li><a href="More.html">More Cool Stuff</a></li>
-      </ul>
+    <div class="navbar navbar-default">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Menu
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu text-center" aria-labelledby="dropdownMenu1">
+          <li class="text-center"><a href="index.html">Home</a></li>
+          <li class="text-center"><a href="Cool.html">Cool Stuff</a></li>
+          <li class="text-center"><a href="More.html">More Cool Stuff</a></li>
+        </ul>
+      </div>
+
+
+      <img src="kitty.jpg" class="img-thumbnail" alt="Cute Cat" width="600" height="600">
     </div>
-
-
-    <img src="kitty.jpg" class="img-thumbnail" alt="Cute Cat" width="600" height="600">
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
